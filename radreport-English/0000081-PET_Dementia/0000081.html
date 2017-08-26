@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta content="PET Dementia" name="dcterms.title"/>
+<meta content="PET Dementia template :: Authored by Pryma DA, et al." name="dcterms.description"/>
+<meta content="http://www.radreport.org/template/0000081" name="dcterms.identifier"/>
+<meta content="en" name="dcterms.language"/>
+<meta content="IMAGE_REPORT_TEMPLATE" name="dcterms.type"/>
+<meta content="Radiological Society of North America (RSNA)" name="dcterms.publisher"/>
+<meta content="May be used gratis, subject to license agreement" name="dcterms.rights"/>
+<meta content="http://www.radreport.org/license.pdf" name="dcterms.license"/>
+<meta content="2012-07-10" name="dcterms.date"/>
+<meta content="Pryma DA, et al." name="dcterms.creator"/>
+<meta content="Hong Y [coder]" name="dcterms.contributor"/>
+<meta content="Kahn CE Jr [editor]" name="dcterms.contributor"/>
+<link rel="stylesheet" type="text/css" href="IHE_Template_Style.css"/>
+<!-- The absolute link to the CSS file is http://www.radreport.org/html/IHE_Template_Style.css -->
+<script type="text/xml">
+<!--
+<template_attributes>
+<top-level-flag>true</top-level-flag>
+<status>ACTIVE</status>
+<coding_schemes>
+ <coding_scheme name="RadLex" designator="2.16.840.1.113883.6.256" />
+ <coding_scheme name="SNOMEDCT" designator="2.16.840.1.113883.6.96" />
+ <coding_scheme name="LOINC" designator="2.16.840.1.113883.6.1" />
+</coding_schemes>
+<term>
+ <code meaning="brain" value="RID6434" scheme="RadLex">
+</term>
+<term>
+ <code meaning="positron emission tomography" value="RID10337" scheme="RadLex">
+</term>
+<coded_content>
+<entry ORIGTXT="T81_13">
+ <term>
+  <code meaning="radiopharmaceutical" value="RID11692" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T81_14">
+ <term>
+  <code meaning="Flourine-18 fluorodeoxyglucose" value="RID11701" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T81_34">
+ <term>
+  <code meaning="CT attenuation correction" value="RID10987" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T81_38">
+ <term>
+  <code meaning="clinical information" value="RID13166" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T81_41">
+ <term>
+  <code meaning="comparison" value="RID28483" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T81_82">
+ <term>
+  <code meaning="occipital lobe" value="RID6502" scheme="RadLex">
+ </term>
+</entry>
+<entry ORIGTXT="T81_87">
+ <term>
+  <code meaning="impression section" value="RID13170" scheme="RadLex">
+ </term>
+</entry>
+</coded_content>
+</template_attributes>
+-->
+</script>
+<title>PET Dementia</title>
+</head>
+<body>
+<section data-section-name="Procedure">
+<header class="level1">PET Dementia Study</header>
+<p>
+<label for="T81_8">Duration of fast prior to injection:</label>
+<input type="text" id="T81_8" name="Duration of fast prior to injection" value=""/>
+</p>
+<p>
+<label for="T81_10">Blood glucose prior to injection:</label>
+<input type="number" id="T81_10" name="Blood glucose prior to injection" data-field-units="mg/dl" min="" max=""/> <label for="T81_10">mg/dl</label>
+</p>
+<p>
+<label for="T81_11">Scan region:</label>
+<input type="text" id="T81_11" name="Scan region" value="Brain. "/>
+</p>
+<p>
+<label for="T81_13">Radiopharmaceutical:</label>
+<input type="text" id="T81_13" name="Radiopharmaceutical" value="F-18 FDG"/>
+<input type="number" id="T81_14" name="Radiopharmaceutical measurement" data-field-units="mCi" min="0" max=""/> <label for="T81_14">mCi IV</label>
+</p>
+<p>
+<label for="T81_15">Calibration time:</label>
+<input type="date" id="T81_15" name="Calibration date" data-field-type="DATE"/>
+<input type="time" id="T81_15_time" name="Calibration_time" data-field-type="TIME"/>
+</p>
+<p>
+<label for="T81_16">Administration time:</label>
+<input type="date" id="T81_16" name="Administration date" data-field-type="DATE"/>
+<input type="time" id="T81_16_time" name="Administration time" data-field-type="TIME"/>
+</p>
+<p>
+<label for="T81_17">Injection site:</label>
+<input type="text" id="T81_17" name="Injection site" value=""/>
+</p>
+<p>
+<label for="T81_33">Post-injection imaging delay:</label>
+<input type="number" id="T81_33" name="Post-injection imaging delay" data-field-units="minutes" min="" max=""/> <label for="T81_33">minutes</label>
+</p>
+<p>
+<label for="T81_34">Attenuation correction:</label>
+<input type="text" id="T81_34" name="Attenuation correction" value="Rod source transmission scan. "/>
+</p>
+<p>
+<label for="T81_36">Computer-aided diagnosis software:</label>
+<input type="text" id="T81_36" name="Computer-aided diagnosis software" value="None."/>
+</p>
+</section>
+<section data-section-name="Clinical information">
+<header class="level1">Clinical information</header>
+<p>
+<textarea id="T81_38" name="Clinical information">Documented cognitive decline of at least six (6) months as assessed by a specialist in the diagnosis and management of dementia. Despite cognitive scales, cross-sectional anatomical images and neuropsychological testing, inconclusive differentiation between frontotemporal (FTD) and Alzheimer dementia (AD). </textarea>
+</p>
+</section>
+<section data-section-name="Comparison">
+<header class="level1">Comparison</header>
+<p>
+<textarea id="T81_41" name="Comparison">None. </textarea>
+</p>
+</section>
+<section data-section-name="Findings">
+<header class="level1">Findings</header>
+<p>
+<label for="T81_79">Brain metabolism:</label>
+<select id="T81_79" name="Brain metabolism">
+<option id="T81_79.1" name="Normal" value="Normal">No foci of significantly abnormal metabolism.</option>
+<option id="T81_79.2" name="Alzheimer" value="Alzheimer">Abnormally decreased metabolism in the posterior parietotemporal lobes in a pattern characteristic of Alzheimer dementia.</option>
+<option id="T81_79.3" name="Frontotemporal" value="Frontotemporal">Abnormally decreased metabolism in the frontal lobes in a pattern characteristic of frontotemporal dementia.</option>
+</select>
+</p>
+<p>
+<label for="T81_82">Occipital lobe metabolism:</label>
+<select id="T81_82" name="Occipital lobe metabolism">
+<option id="T81_82_83" name="Normal" value="Normal">Normal</option>
+<option id="T81_82_84" name="Decreased" value="Decreased">Decreased</option>
+</select>
+</p>
+<p>
+<label for="T81_86">Other findings</label>
+<input type="text" id="T81_86" name="Other findings" value="None."/>
+</p>
+</section>
+<section data-section-name="Impression">
+<header class="level1">Impression</header>
+<p>
+<select id="T81_87" name="Impression">
+<option id="T81_87.1" name="Normal" value="Normal">No abnormal focal hypometabolism to suggest dementia.</option>
+<option id="T81_87.2" name="Alzheimer dementia" value="Alzheimer dementia">Findings most consistent with Alzheimer dementia.</option>
+<option id="T81_87.3" name="Frontotemporal dementia" value="Frontotemporal dementia">Findings most consistent with frontotemporal dementia.</option>
+</select>
+</p>
+</section>
+</body>
+</html>
